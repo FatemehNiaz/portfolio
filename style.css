@@ -68,14 +68,14 @@ header {
 }
 
 .introduce {
-  font-size: small;
+  font-size:medium;
   width: 400px;
   text-align: justify;
   margin: auto;
 }
 
 a:visited {
-  color: rgb(216, 120, 24);
+  color: rgba(132, 72, 11, 0.755);
 }
 
 a:hover {
@@ -93,7 +93,7 @@ a {
 
 h3 {
   width: 75%;
-  font-size: larger;
+  font-size: x-large;
 
 
 }
@@ -132,11 +132,12 @@ li {
 }
 
 #aboutMe {
-  margin-left: 250px;
+  margin-left: auto;
   margin-top: 75px;
-  color: rgb(5, 30, 41);
-  margin-right: 550px;
+  color: rgb(8, 39, 51);
+  margin-right: auto;
   inline-size: 600px;
+  text-align: justify;
 }
 
 /*.container {
@@ -160,7 +161,7 @@ li {
 
 p {
   border: inset;
-  border-color: rgb(238, 153, 111);
+  border-color: rgb(135, 60, 22);
   border-width: 4px;
   font-size:large;
   font-size: large;
@@ -171,8 +172,10 @@ p {
 #work {
   margin-top: 80px;
   color: rgb(208, 111, 62);
-  margin-left: 18rem;
-  margin-right: 18rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  padding-left: 1cm;
 
 }
 
@@ -188,7 +191,19 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
+  top:-50px; 
+  left:-35px; 
+  display:block; 
+  z-index:999; 
+  cursor: pointer; 
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
 }
+.card:hover { 
+  transform: scale(1.1); 
+  
+  }
 
 .card .buttons a {
   width: 100%;
@@ -205,22 +220,27 @@ p {
 }
 
 #contactMe {
-  margin-left: 400px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 120px;
   margin-bottom: 100px;
   color: rgb(208, 111, 62);
   inline-size: 600px;
- 
+ font-size: large;
 }
 
 
 #resume {
   margin-top: 150px;
-  margin-left: 180px;
+  margin-left: auto;
+  margin-right:auto;
   margin-bottom: 50px;
+  font-size: xx-large;
   color: rgb(208, 111, 62);
-  inline-size: 600px;
+  inline-size: 500px;
 }
+
+  
 @media screen and (max-width: 992px){
   
 }
@@ -229,9 +249,24 @@ p {
 }*/
 
 
+@media screen and (max-width: 880px) {
+  #intro {
+    padding-top: 75px;
+
+  }
+}
 
 
-@media screen and (max-width: 768px) {
-  
+@media screen and (max-width: 572px) {
+  nav {
+    margin-top: 10px;
+  }
+  li {
+    margin-right: 5px;
+    margin-right: 5px;
+  }
+  a {
+    font-size: 17px;
+  }
 }
 
